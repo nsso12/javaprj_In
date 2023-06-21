@@ -1,0 +1,2 @@
+total is 213
+avg is 71.000000
