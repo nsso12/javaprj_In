@@ -63,7 +63,6 @@ public class HomeWork0621 {
 		int c = 3;
 
 		int temp;
-
 		temp = a;
 		a = c;
 		c = b;
