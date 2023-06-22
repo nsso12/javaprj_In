@@ -71,7 +71,7 @@ public class Program {
 //			//몇번의 반복? size-1
 //
 //			for (int i = 0; i < size - 1; i++)
-//				if (max  < nums[i]) // ********** 부등호 위치 다시 생각해보기. 이게 자리 바꾸기 아닐까...?
+//				if (max  < nums[i])
 //					max = nums[i];
 //
 //			System.out.printf("max : %d\n", max);

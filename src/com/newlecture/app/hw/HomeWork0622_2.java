@@ -25,7 +25,6 @@ public class HomeWork0622_2 {
         String a = fscan.next();
 
         // 3. res/alphabet.txt 파일에 저장된 구분자가 없는 영문자 값들을 alphabet 배열에 로드한다
-
         for (int i = 0; i < a.length(); i++) {
             alphabet[i] = a.substring(i, i + 1);  //얼이가 말한 마지막부터... 그게 뭐지? *****************
             System.out.printf("%s",alphabet[i]);

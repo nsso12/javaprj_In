@@ -27,7 +27,6 @@ public class HomeWork0622_4 {
             System.out.println("선택 > ");
             int menu = sc.nextInt();
 
-
             switch (menu) {
                 case 1:
                     System.out.print("┌────────────────────────────┐");
@@ -39,16 +38,26 @@ public class HomeWork0622_4 {
 
                     System.out.println("국어 성적을 입력하세요: ");
                     kor = sc.nextInt();
+                    if (kor < 0 || kor > 100) {
+                        System.out.println("성적의 범위(0~100)을 벗어났습니다");
+                        break;
+                    }
                     arr[0] = kor;
+
                     System.out.println("수학 성적을 입력하세요: ");
                     mat = sc.nextInt();
-                    arr[1] = mat;
+                    if (mat < 0 || mat > 100) {
+                        System.out.println("성적의 범위(0~100)을 벗어났습니다");
+                        break;
+                    }
+
                     System.out.println("영어 성적을 입력하세요: ");
                     eng = sc.nextInt();
+                    if (eng < 0 || eng > 100) {
+                        System.out.println("성적의 범위(0~100)을 벗어났습니다");
+                        break;
+                    }
                     arr[2] = eng;
-
-                    //범위 벗어난거 적어주기
-
                     break;
 
                 case 2:
